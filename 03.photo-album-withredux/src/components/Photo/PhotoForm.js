@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Modal, Form, Button, Icon, Message } from 'semantic-ui-react'
 import { connect } from 'react-redux';
-import * as photoActions from '../../actions/photoActions';
+import * as photoActions from '../../actions/photoActionsCreators';
 
 class PhotoForm extends React.Component {
   state = {

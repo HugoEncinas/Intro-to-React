@@ -3,8 +3,8 @@ import albums from './albums';
 import photos from './photos';
 
 const rootReducer = combineReducers({
-  albums,
-  photos,
+  albums: albums,
+  photos: photos,
 });
 
 export default rootReducer;

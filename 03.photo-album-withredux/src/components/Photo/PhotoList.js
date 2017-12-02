@@ -5,7 +5,7 @@ import StatusBar from '../StatusBar';
 import { DeleteButton } from '../Common';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'
-import * as photoActions from '../../actions/photoActions';
+import * as photoActions from '../../actions/photoActionsCreators';
 
 const PhotoList = (props) => {
   const { photos } = props;
