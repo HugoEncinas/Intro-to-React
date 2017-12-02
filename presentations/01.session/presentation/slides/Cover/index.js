@@ -1,6 +1,6 @@
 import React from "react";
 import preloader from "spectacle/lib/utils/preloader";
-import { Heading, Slide, Text, Image, Table, TableRow, TableItem } from "spectacle";
+import { Heading, Slide, Text, Image } from "spectacle";
 
 const images = {
   reactLogo: require("../../../assets/react-logo.svg"),
